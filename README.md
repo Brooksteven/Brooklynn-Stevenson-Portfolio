@@ -41,7 +41,9 @@
 
 ## Video of Website in Use
 
-<iframe src="./assets/Professional-Portfolio.webm"></iframe>
+<video width="600" controls>
+  <source src="./assets/Professional-Portfolio.webm" type="video/webm">
+</video>
 
 
 
