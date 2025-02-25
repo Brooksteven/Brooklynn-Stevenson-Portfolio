@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/6ceacbb8af.js" crossorigin="anon"></script>
+    <title>Project</title>
+</head>
+<body style="margin-right: 24px;">
+    <!-- <nav class="navbar bg-body-tertiary"> -->
+        <ul class="nav justify-content-center bg-body-tertiary">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./admin.html" style="font-weight: bold;">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./userpage.html" style="font-weight: bold;">User Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./resume.html" style="font-weight: bold;">Resume</a>
+              </li>
+          </ul>
+      <!-- </nav> -->
+
+</div class="sidebar">
+
+<!-- his code includes my own inputs but structure is from https://dev.to/codeply/bootstrap-5-sidebar-examples-38pb-->
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <!--change color of chart here-->
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <span class="fs-5 d-none d-sm-inline">TASKMASTER</span>
+                </a>
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link align-middle px-0">
+                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <i class="fa-solid fa-list-check"></i> <span class="ms-1 d-none d-sm-inline">Task</span> </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-0 align-middle">
+                            <i class="fa-solid fa-chart-line"></i> <span class="ms-1 d-none d-sm-inline">Activity</span></a>
+                    </li>
+                    <li>
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                            <i class="fa-regular fa-bell"></i> <span class="ms-1 d-none d-sm-inline">Notifications</span></a>
+                    </li>
+                    <li>
+                        <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <i class="fa-solid fa-gear"></i> <span class="ms-1 d-none d-sm-inline">Settings</span> </a>
+                    </li>
+                    <li>
+                        <a href="./userpage.html" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">User</span> </a>
+                    </li>
+                </ul>
+                <hr>
+                <div class="dropdown pb-4">
+                    <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="./assets/Tech-Photo.jpeg" alt="hugenerd" width="30" height="30" class="rounded-circle">
+                        <span class="d-none d-sm-inline mx-1">Admin</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                        <li><a class="dropdown-item" href="#">Task</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col py-3">
+            <!--Content area...-->
+            <!--This code includes my own inputs but structure is from https://getbootstrap.com/docs/5.3/layout/utilities/ -->
+            <h1 style="font-weight: bold">Admin Dashboard</h1>
+            <i></i>
+        
+            <!-- <div class="container text-center">
+                <div class="row row-cols-5">
+                  <div class="col">Task List</div>
+                  <div class="col">Task To Do</div>
+                  <div class="col">Do Now</div>
+                  <div class="col">Do Later</div>
+                  <div class="col">Done</div>
+                </div>
+              </div>
+        
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    ACTIVITY
+                  </div>
+                </div>
+              </div>
+             
+        
+        
+              <div class="container text-center">
+                <div class="row row-cols-auto">
+                  <div class="col">Day</div>
+                  <div class="col">Week</div>
+                  <div class="col">Month</div>
+                  <div class="col">Year</div>
+                </div>
+              </div> -->
+        
+        
+            <div class="box">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Task</th>
+                    <th scope="col">Prioriity</th>
+                    <th scope="col">Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Wash Clothes</td>
+                    <td>Medium</td>
+                    <td>Incomplete</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Work Out</td>
+                    <td>High</td>
+                    <td>Complete</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td <!--colspan="2"-->Finish Homework</td>
+                    <td>High</td>
+                    <td>Started</td>
+                  </tr>
+                </tbody>
+              </table>
+        
+        <div class="chart">
+        <h1 style="font-weight: bold">Progress</h1>
+        <h2 style="text-align: center;">New Task Today</h1>
+        <div class="container" style="display:flex">
+        <div class="m-4">
+            <div class="card" style="width: 300px;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9FdYZWrIW4TRrSkYyzxt9d5ZjxMki8vYOEg&s" class="card-img-top" alt="Sample Image">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Today's Progress</h5>
+                    <p class="card-text">
+                        <ul style="list-style-type: none">
+                            <li style="background-color: rgb(93, 234, 156)"><i class="fa-thin fa-square"></i>Started</li>
+                            <li style="background-color: rgb(254, 166, 25)"><i class="fa-thin fa-square"></i>Incomplete</li>
+                            <li style="background-color: rgb(76, 149, 245)"><i class="fa-thin fa-square"></i>Complete</li>
+                        </ul>
+                    </p>
+                    <!-- <a href="#" class="btn btn-primary">Add Activity</a> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="m-4">
+            <!--change width of box here-->
+            <div class="card" style="width: 800px;">
+                <div class="card-body text-center">
+                    <h5 class="card-title">New Task</h5>
+                <div class="card-body text-center">
+                    <div class="input-group">
+                        <span class="input-group-text">Task</span>
+                        <input type="text" aria-label="First name" class="form-control">
+                    </div>
+<!--drop down menu div box-->
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Prioriity
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">High</a></li>
+      <li><a class="dropdown-item" href="#">Medium</a></li>
+      <li><a class="dropdown-item" href="#">Low</a></li>
+    </ul>
+  </div>
+                    <!--anchor div box to start the ancor on a new line-->  
+                <div>
+                    <a href="#" class="btn btn-primary">Add</a>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+        </div>
+        </div>
+        
+    </div>
+</div>
+
+
+<!-- scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

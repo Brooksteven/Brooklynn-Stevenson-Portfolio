@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+section{
+    margin: 44px;
+    background-color: rgb(40, 40, 40);
+}
+
+
+
+/*.image{
+    margin: 44px;
+}*/
+
+.name{
+    margin-left: 34px;
+}
+
+.fullName{
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+}
+
+.main{
+    flex: 70%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 44px; 
+    padding: 44px 10px 0px 10px; /*padding all over*/
+
+}
+
+.box3{
+    margin: 0px 43.3px 44px 43.9px;
+    text-align: center;
+}
+
+.about-me-text{
+    padding-bottom: 44px;
+    margin-bottom: 0px;
+}
+
+.box1{
+    display:flex;
+    width: 70%;
+}
+
+
+/*.box1, .box2{
+    width: 50%
+}*/
+
+.box2{
+    width: 30%;
+}
+
+.blue{
+    color: rgb(66, 214, 251);
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.info{
+    color: rgb(123, 123, 123);
+
+}
+
+span{
+    font-size: 1.1rem;
+    color: white;
+    margin: 10px;
+}
+
+.anchor{
+    color: rgb(66, 214, 251);
+    text-decoration: none;
+}
+
+#experience{
+    padding: 44px; 
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+#skills{
+    padding: 44px 44px 44px 44px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#header{
+    margin-bottom: 0px;
+}
+
+.expEmp, .expEdu{
+    background-color:rgb(123, 123, 123);
+    
+}
+
+
+
+.fa-chevron-down{
+    border: 1px solid rgb(27, 83, 209);
+    color: white;
+    background-color:rgb(27, 83, 209);
+    width: 30px;
+    height: 28px;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+.fa-circle-chevron-right{
+    margin-right: 8px;
+    background-color: white;
+    border-radius: 100%;
+    border: 1px solid rgb(27, 83, 209);
+    color: rgb(27, 83, 209);
+}
+
+.jobTitle{
+    margin-top: 34px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.date{
+    float: right;
+    font-weight: normal;
+    color: rgb(123, 123, 123);
+}
+
+.companyName{
+    margin-top: 0px;
+    margin-left: 28px;
+    color: rgb(123, 123, 123);
+}
+
+.fa-circle{
+    font-size: 8px;
+    margin-right: 6px;
+    line-height: 2.5;
+}
+
+.bulletPoints{
+    margin-left: 24px;
+    color: rgb(123, 123, 123);
+    width: 100%;
+}
+
+.points{
+    margin-bottom: 34px;
+    width: 100%;
+}
+
+.lang-skills{
+    margin-top: 44px;
+}
+
+.space{
+    margin-bottom: 0px;
+    margin-top: 24px;
+}
+
+/*style="color:rgb(66, 214, 251); margin-right: 8px; font-size:1.9rem;"*/
+
+
+.meter {
+    box-sizing: content-box;
+    height: 20px; /* Can be anything */
+    position: relative;
+    background: #555;
+    border-radius: 25px;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+  }
+
+  .meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: green;
+    margin-left: 0px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .orange > span{
+    background-color: orange;
+  }
+
+  .red > span{
+    background-color: red;
+  }
+
+  .blue > span{
+    background-color: blue;
+  }
+
+  .purple > span{
+    background-color: purple;
+  }
