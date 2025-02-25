@@ -219,3 +219,19 @@ span{
   .purple > span{
     background-color: purple;
   }
+
+  .magenta > span{
+    background-color: magenta;
+  }
+
+  .yellow > span{
+    background-color: yellow;
+  }
+
+  .indigo > span{
+    background-color: indigo;
+  }
+
+  .turquoise > span{
+    background-color: turquoise;
+  }
