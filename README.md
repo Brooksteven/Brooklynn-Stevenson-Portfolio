@@ -41,7 +41,7 @@
 
 ## Video of Website in Use
 
-[View My Content]([https://example.com](https://drive.google.com/file/d/1ZiWrTdKN-ezIUm-LoqW5wYhKPXnjKMDb/preview))
+![Alt text](https://drive.google.com/file/d/1ZiWrTdKN-ezIUm-LoqW5wYhKPXnjKMDb/preview)
 
 <iframe src="https://drive.google.com/file/d/1ZiWrTdKN-ezIUm-LoqW5wYhKPXnjKMDb/preview" width="640" height="480"></iframe>
 
