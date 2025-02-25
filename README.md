@@ -11,17 +11,17 @@
 
 
 ## Description
-  This is a well-developed HTML structure website was created to present good visual design methodologies in order to produce a satisyfing user experience. Additionallly, this website uses CSS and Bootstrap to ensure the most optimized experience.
+  This is a well-developed HTML structure website that was created to present good visual design methodologies to produce a satisfying user experience. Additionally, this website uses CSS and Bootstrap to ensure the most optimized experience.
 
-  This application includes an Project (Admin.html) Page, Portfolio (Userpage.html) Page, and Resume (Resume.html) page.
+  This application includes a Project (Admin.html) Page, Portfolio (Userpage.html) Page, and Resume (Resume.html) page.
 
 ## User Story
     AS A developer who writes about tech
-    I WANT a HTML site
+    I WANT an HTML site
     SO THAT I can showcase my professional portfolio
 
 ## Requirements
-  ###HTML Requirements
+  ### HTML Requirements
     *Have at least three pages.
     *Keep the grid system consistent between pages as much as possible.
     *Use at least ten different HTML tags.
@@ -32,7 +32,7 @@
         *Text.
         *Images.
         *GIFs.
-  ###CSS Requirements
+  ### CSS Requirements
     *Make use of inline, internal, and external styling.
     *Use five different CSS selectors.
     *Use colors that complement each other.
@@ -40,6 +40,8 @@
     *Use at least two CSS animations.
 
 ## Video of Website in Use
+
+[View My Content]([https://example.com](https://drive.google.com/file/d/1ZiWrTdKN-ezIUm-LoqW5wYhKPXnjKMDb/preview))
 
 <iframe src="https://drive.google.com/file/d/1ZiWrTdKN-ezIUm-LoqW5wYhKPXnjKMDb/preview" width="640" height="480"></iframe>
 
