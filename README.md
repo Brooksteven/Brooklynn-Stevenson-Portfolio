@@ -41,14 +41,7 @@
 
 ## Video of Website in Use
 
-<figure class="video_container">
-  <iframe src="[vid/test.mp4](https://drive.google.com/file/d/1ZiWrTdKN-ezIUm-LoqW5wYhKPXnjKMDb/preview)" frameborder="0" allowfullscreen="true"> 
-</iframe>
-</figure>
-
-<figure>
-<iframe src="https://drive.google.com/file/d/1ZiWrTdKN-ezIUm-LoqW5wYhKPXnjKMDb/preview" width="640" height="480"></iframe>
-</figure>
+[Video](https://drive.google.com/file/d/1ZiWrTdKN-ezIUm-LoqW5wYhKPXnjKMDb/preview)
 
 
 ## Technologies
@@ -59,5 +52,5 @@
 
   ## Questions?
   ### Reach me here: 
-  [Brooklynn Stevenson](https://github.com/Brooksteven)  
+  [My GitHub Account](https://github.com/Brooksteven)
   Steven.lynn.brooks@gmail.com
