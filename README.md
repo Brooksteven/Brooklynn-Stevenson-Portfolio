@@ -41,7 +41,7 @@
 
 ## Video of Website in Use
 
-[Video](https://drive.google.com/file/d/1ZiWrTdKN-ezIUm-LoqW5wYhKPXnjKMDb/preview)
+![image](https://drive.google.com/file/d/1ZiWrTdKN-ezIUm-LoqW5wYhKPXnjKMDb/preview)
 
 
 ## Technologies
@@ -52,5 +52,5 @@
 
   ## Questions?
   ### Reach me here: 
-  [My GitHub Account](https://github.com/Brooksteven)
+  https://github.com/Brooksteven
   Steven.lynn.brooks@gmail.com
