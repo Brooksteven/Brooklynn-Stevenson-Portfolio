@@ -41,7 +41,7 @@
 
 ## Video of Website in Use
 
-[![Watch the video](https://drive.google.com/file/d/1ZiWrTdKN-ezIUm-LoqW5wYhKPXnjKMDb/preview)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](https://drive.google.com/file/d/1ZiWrTdKN-ezIUm-LoqW5wYhKPXnjKMDb/preview)](https://drive.google.com/file/d/1ZiWrTdKN-ezIUm-LoqW5wYhKPXnjKMDb/preview)
 
 
 ## Technologies
